@@ -10,7 +10,6 @@ if(isset($_POST['name'])){
 	}
 }
 
-
 if(isset($_GET['action']) && $_GET['action'] == 'clear'){
 	session_unset(); 
 	session_destroy(); 
